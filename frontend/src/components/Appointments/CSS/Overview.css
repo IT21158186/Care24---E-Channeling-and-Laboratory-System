@@ -1,0 +1,32 @@
+.form-container1 {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.overview-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.appointment-count-box {
+  background-color: #0090FF;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.count {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}

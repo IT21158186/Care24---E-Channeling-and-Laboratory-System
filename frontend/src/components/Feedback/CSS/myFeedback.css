@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: #fff;
+}
+h1 {
+  margin-left:300px;
+  margin-top:100px;
+
+}
+table {
+    width: 800px;
+  border-collapse: collapse;
+  margin-left: 180px;
+margin-top: 20px;
+
+
+}
+
+.header_fixed {
+    max-height: 100vh;
+    width: 100%;
+    overflow: auto;
+  border: 1px solid #fff;
+
+
+}
+
+.header_fixed thead th {
+    position: sticky;
+    top: 0;
+    background-color: #009879;
+    color: #fff;
+    font-size: 15px;
+}
+
+th,
+td {
+    border-bottom: 1px solid #d4d4d4;
+    padding: 10px 20px;
+  font-size: 14px;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+
+td button {
+    border: none;
+    padding: 7px 20px;
+  border-radius: 20px;
+  width:80px;
+margin-left:10px; 
+}
+
+.edit {
+  color: #009879;
+	background-color: #fff;
+}
+
+.action {
+    padding-left: 70px;
+}
+
+.edit:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: #009879;
+}
+
+.delete {
+  color: red;
+	background-color: #fff;
+}
+
+.delete:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: #df3434;
+}
+
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 20;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+
+
+

@@ -1,0 +1,24 @@
+.container-faq{
+    width: 70%;
+    margin-top: 40%;
+    margin-left: 24%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+.container-faq .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+.container-faq .content .left-side{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    position: relative;
+  }
